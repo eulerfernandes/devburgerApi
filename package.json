@@ -1,0 +1,17 @@
+{
+  "name": "devburgerapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Euler Fernandes",
+    "url": "https://github.com/eulerfernandes"
+  },
+  "license": "ISC",
+  "description": "DevBurger API.",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
