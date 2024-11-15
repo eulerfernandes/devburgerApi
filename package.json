@@ -1,9 +1,9 @@
 {
   "name": "devburgerapi",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon"
   },
   "author": {
     "name": "Euler Fernandes",
@@ -13,5 +13,8 @@
   "description": "DevBurger API.",
   "dependencies": {
     "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "sucrase": "^3.35.0"
   }
 }
