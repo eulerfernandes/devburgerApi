@@ -13,7 +13,12 @@ class UserController {
       admin,
     });
 
-    return response.status(201).json(user);
+    return response.status(201).json({
+      id: user.id,
+      name,
+      email,
+      admin,
+    });
   }
 }
 
