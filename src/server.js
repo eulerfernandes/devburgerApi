@@ -1,3 +1,8 @@
-import app from './app';
+import express from 'express';
 
-app.listen(3001, () => console.log('Server is running at port 3001....'));
+const app = express();
+
+// Configurações e middlewares do app
+app.use(express.json());
+
+export default app;
